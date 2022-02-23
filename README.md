@@ -37,7 +37,7 @@
 
 Postman collection:
 
-	https://www.getpostman.com/collections/4b390c1a904aa8315659
+[https://www.getpostman.com/collections/4b390c1a904aa8315659](https://www.getpostman.com/collections/4b390c1a904aa8315659)
 
 cURL:
 
