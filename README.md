@@ -15,6 +15,7 @@
 ##### 1. Deploy the services on defaut namespace
 	
 	kubectl apply -f kubernetes/order-service.yml
+
 	kubectl apply -f kubernetes/pizza-service.yml
 	
 ##### 2. Install Istio using the default profile
