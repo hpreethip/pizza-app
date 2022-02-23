@@ -1,0 +1,16 @@
+# Use root/root as user/password credentials
+version: '3.1'
+
+services:
+  pizza-service:
+    build: .
+    ports:
+      - 9090:9090
+    networks:
+      - actuator
+
+networks:
+  actuator:
+    name: actuator
+    driver: bridge
+    external: false
