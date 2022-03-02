@@ -3,13 +3,13 @@
 ## Order Pizza Application using Spring Boot with Microservices
 
 - The in-memory database used is H2.
-- For security, JWT Token authorization is used.
+- For security, JWT Token authorization using Microservices in the Cloud with Kubernetes and Istio.
 - RESTApis is used for communication between Microservices.
 - Services speak to each other via Istio service mesh.
 
 ## Workflow of the Application
 
-![alt workflow](pizza-app.png)
+![workflow](pizza-app.png)
 
 ## Steps to run the application on Kubernetes
 ##### 1. Deploy the services on defaut namespace
